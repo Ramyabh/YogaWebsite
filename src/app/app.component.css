@@ -1,0 +1,100 @@
+
+
+body{
+  padding: 0px;
+  margin:0px
+}
+
+.navbar-brand{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  color: blueviolet !important;
+}
+.nav-link{
+  font-size: 16px;
+  margin:15px;
+  color: black !important;
+  font-family: 'Lucida Sans';
+}
+
+.nav-link:hover{
+  color:darkviolet !important;
+}
+.active .nav-link{
+  color:darkviolet !important;
+}
+.menu-right-btn{
+  padding:13px 46px;
+  margin-right: 4%;
+  background-color: transparent;
+  transition-property: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+  color: white !important;
+  background-color: darkviolet;
+}
+.site-content{
+  background-image: url("D:\MyProjects\Website\src\assets\images\Yoga-1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.site-desc{
+  padding-left: 15%;
+  font-size: 14px;
+  color: white;
+}
+
+.section-1 .heading-1{
+ margin-top: 8%;
+}
+
+.section-1 .heading-2{
+  margin-bottom: 5%;
+  font-size: 39px;
+ }
+
+ .section-1 .para-1{
+   width:60%;
+   margin-left: 20%;
+   margin-bottom: 5%;
+ }
+
+ .section-1 .card-text, .para-1{
+   color: rgb(0,0,0,0.59);
+ }
+ .section-1{
+   margin-bottom: 8%;
+ }
+
+ .section-2 .container-fluid{
+   background-image: url("D:\MyProjects\Website\src\assets\images\yoga-3.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   
+ }
+
+ .section-2 .heading-1{
+   margin-top: 20%;
+   margin-bottom: 4%;
+   font-family: "Courier New";
+   width: 80%;
+   color: black;
+ }
+
+ .section-2 .para{
+
+  width:80%;
+  font-family: "Courier New";
+  color: black;
+  margin-bottom: 8%;
+ }
+
+ .section-2 .btn {
+   margin-bottom: 15%;
+   width:30%;
+   padding:2% 5%;
+ }
+
+ .section-2{
+   align-content: flex-end;
+ }
